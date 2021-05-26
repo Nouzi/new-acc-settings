@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/6f/2d/34/6f2d34fe6c8746c56c14fbc55308ef99.jpg);
+}
+
+header {
+    margin-bottom: 2%;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex; 
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navbar-text {
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex; 
+    justify-content: center;
+    text-decoration: none;
+
+    display: none;
+    
+   
+}
+
+.nav-selector {
+    padding: 4px;
+    margin: 3px;
+    font-size: 1.5rem;
+   color: white;
+    
+}
+
+a {
+    text-decoration: unset;
+    color:gray;
+
+}
+
+a:hover {
+    color: white;
+  
+}
+
+
+
+.container {
+    width: 92%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card-setup {
+    display: flex;
+
+    
+}
+
+.card {
+    padding: 0 0.3rem;
+    
+}
+
+.card-text {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    opacity: 95%;
+    border-radius: 0.35rem;
+}
+
+
+
+/* MEDIA QUERY */
+
+
+/* iphone x */
+@media screen and (max-width: 400px) {
+
+    .nav-selector {
+        padding: 8px;
+        margin: 0 10px;
+        font-size: 2rem;
+       
+        
+    }
+
+}
+
+/* pixel 2 */
+@media screen and (min-width: 401px) and (max-width: 420px) {
+
+    .nav-selector {
+        padding: 5px;
+        margin: 0 10px;
+        font-size: 2.3rem;
+       
+        
+    }
+
+}
