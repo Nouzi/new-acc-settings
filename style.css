@@ -128,6 +128,13 @@ img {
         padding: 1%;
     }
 
+    .card:nth-child(n+5) {
+        padding: 0.3rem;
+        justify-content: center;
+        display: none;
+    }
+
+
     .nav-selector {
         padding: 0.3rem;
         margin: 3px;
@@ -146,6 +153,13 @@ img {
        
         
     }
+
+    .card:nth-child(n+5) {
+        padding: 0.3rem;
+        justify-content: center;
+        display: none;
+    }
+
      .news {
         display: flex;
         flex-wrap: wrap;
@@ -181,6 +195,12 @@ img {
         
     }
 
+    .card:nth-child(n+5) {
+        padding: 0.3rem;
+        justify-content: center;
+        display: none;
+    }
+
     .news {
         display: flex;
         flex-wrap: wrap;
@@ -197,13 +217,19 @@ img {
 
 }
 
-
+/* Nokia N9 rozlíšenie  */
 @media screen and (min-width: 420px) and (max-width: 480px)  {
 
     .nav-selector {
         padding: 0.3rem 1rem;
         font-size: 1.9rem;
         color: white;
+    }
+
+    .card:nth-child(n+5) {
+        padding: 0.3rem;
+        justify-content: center;
+        display: none;
     }
 
     .news {
@@ -231,5 +257,103 @@ img {
         text-overflow: clip;
         text-align: center;
     }
+
+}
+
+/* Ipad rozlíšenie  */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .card-setup {
+        display: grid;
+        /* justify-items: center; */
+        grid-template-columns: repeat(3, minmax(0, 1fr));    
+    }
+
+    .nav-selector {
+        padding: 0.4rem 1.5rem;
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .news-nadpis {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .news-text {
+        margin-top: 4%;
+        color: white;
+        text-overflow: clip;
+        text-align: center;
+    }
+
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.63);
+        border-radius: 00.35rem;
+        max-width: 100%;
+        /* max-height: 100%; */
+        height: 19rem;
+        align-content: center;
+        justify-content: center;
+        padding: 1%;
+    }
+}
+
+
+/* Ipad pro rozlíšenie  */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+    .card-setup {
+        display: grid;
+        justify-items: center; 
+        grid-template-columns: repeat(3, minmax(0, 1fr));    
+    }
+
+    .nav-selector {
+        padding: 0.4rem 1.5rem;
+        font-size: 5rem;
+        color: white;
+    }
+
+    .news-nadpis {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .news-text {
+        margin-top: 4%;
+        color: white;
+        text-overflow: clip;
+        text-align: center;
+    }
+
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.63);
+        border-radius: 00.35rem;
+        max-width: 100%;
+        /* max-height: 100%; */
+        height: 21.95rem;
+        align-content: center;
+        justify-content: center;
+        padding: 1%;
+    }
+
+    img {
+        max-width: 100%;
+        width: 20rem;
+        object-fit: cover;
+        opacity: 95%;
+        border-radius: 0.35rem;
+    }
+    
+
+   
 
 }
