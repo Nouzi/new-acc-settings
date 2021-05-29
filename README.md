@@ -14,5 +14,8 @@
   - Dokončená responzivita pre Laptop verziu ( 1025-1440px )
   - Opravené chyby vo veľkosti obrázkov 
   - Opravená veľkosť textu v sekcii "Novinky"
-  - Upravený obrázok pozadia, aby sa neopakoval a bol rovnaký v každom rozlíšení
+  - Upravený obrázok pozadia, aby sa neopakoval a bol rovnaký v každom rozlíšení  
+
+**29.5.2021 - Novinky**   
+  - Dokončená responzivita pre PC verziu ( 1441-1920px )
   
