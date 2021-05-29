@@ -18,4 +18,6 @@
 
 **29.5.2021 - Novinky**   
   - Dokončená responzivita pre PC verziu ( 1441-1920px )
+  - Vytvorené nové .css súbory, v ktorých je kód pre každé zariadenie zvlášť, aby sa v tom dalo lepšie orientovať
+  
   
