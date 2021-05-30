@@ -21,8 +21,9 @@
   - Vytvorené nové .css súbory, v ktorých je kód pre každé zariadenie zvlášť, aby sa v tom dalo lepšie orientovať
   - Dokončená responzivita pre PC verziu ( 1921-2880px )   
 
-**30.5.2021 - Novinky**     
-  - Vytvorený záladný layout pre sekciu "nastavenia" 
+**30.5.2021 - Nastavenia**     
+  - Vytvorený základný layout
+  - Pridaný profilový obrázok
 
   
   
