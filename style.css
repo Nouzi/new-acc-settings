@@ -68,6 +68,14 @@ a:hover {
     
 }
 
+.avatar {
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 9999px;
+    object-fit: cover;
+    margin: 1rem;
+}
+
 .core {
     margin: 1% 0;
     justify-content: center;
@@ -121,7 +129,7 @@ a:hover {
     font-size: 1.5rem;
 }
 
-img {
+.obrazok {
     max-width: 96%;
     object-fit: cover;
     opacity: 95%;
@@ -140,7 +148,7 @@ img {
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
 
 
-    img {
+    .obrazok {
         max-width: 100%;
         width: 30rem;
         object-fit: cover;
@@ -223,7 +231,7 @@ img {
 /* MacBook Pro 13 palcov */
 @media screen and (min-width: 1921px) and (max-width: 2560px) {
 
-    img {
+    .obrazok {
         max-width: 100%;
         width: 30rem;
         object-fit: cover;
@@ -308,7 +316,7 @@ img {
 /* MacBook Pro 15 Palcov */
 @media screen and (min-width: 2561px) and (max-width: 2880px) {
 
-    img {
+    .obrazok {
         max-width: 100%;
         width: 30rem;
         object-fit: cover;
@@ -394,7 +402,7 @@ img {
 /* MacBook Pro 16 Palcov */
 @media screen and (min-width: 2881px) and (max-width: 3072px) {
 
-    img {
+    .obrazok {
         max-width: 100%;
         width: 30rem;
         object-fit: cover;

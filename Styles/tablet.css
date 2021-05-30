@@ -93,7 +93,7 @@
         padding: 1%;
     }
 
-    img {
+    .obrazok {
         max-width: 100%;
         width: 20rem;
         object-fit: cover;
