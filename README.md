@@ -28,6 +28,7 @@
 **31.5.2021 - Nastavenia**       
   - Dokončená responzivita pre rozlíšenie ( 320-568px ) 
   - Pridané nové class .css triedy
+  - Dokončená responzivita pre všetky mobilné zariadenia 
 
   
   
