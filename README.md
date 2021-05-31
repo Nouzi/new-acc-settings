@@ -25,5 +25,9 @@
   - Vytvorený základný layout
   - Pridaný profilový obrázok
 
+**31.5.2021 - Nastavenia**       
+  - Dokončená responzivita pre rozlíšenie ( 320-568px ) 
+  - Pridané nové class .css triedy
+
   
   
