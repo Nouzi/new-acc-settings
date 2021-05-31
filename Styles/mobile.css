@@ -15,6 +15,14 @@
         padding: 1%;
     }
 
+    .avatar {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 9999px;
+        object-fit: cover;
+        margin: 1rem;
+    }
+
     .card:nth-child(n+5) {
         padding: 0.3rem;
         justify-content: center;
@@ -39,6 +47,20 @@
         font-size: 2rem;
        
         
+    }
+
+    .avatar-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem 0 1rem 0;
+    }
+
+    .avatar {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 9999px;
+        object-fit: cover;
+        margin: 1rem;
     }
 
     .card:nth-child(n+5) {
@@ -72,6 +94,40 @@
         font-size: 2rem;
        
         
+    }
+
+    .avatar-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem 0 0 0;
+    }
+
+    .avatar-button {
+        border-radius: 0.5rem;
+        width: 4rem;
+        height: 6rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin-bottom: 1rem;
+    }
+
+    .personal-button {
+        border-radius: 0.5rem;
+        width: 4rem;
+        height: 2rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin-top: 2rem;
+    }
+
+    .avatar {
+        height: 13rem;
+        width: 13rem;
+        border-radius: 9999px;
+        object-fit: cover;
+        margin: 1rem;
     }
 
     .nav-selector {
@@ -117,6 +173,40 @@
         padding: 0.3rem;
         justify-content: center;
         display: none;
+    }
+
+    .avatar-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem 0 0 0;
+    }
+
+    .avatar-button {
+        border-radius: 0.5rem;
+        width: 4rem;
+        height: 2rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin-bottom: 1rem;
+    }
+
+    .personal-button {
+        border-radius: 0.5rem;
+        width: 4rem;
+        height: 2rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin-top: 2rem;
+    }
+
+    .avatar {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 9999px;
+        object-fit: cover;
+        margin: 1rem;
     }
 
     .news {
