@@ -30,5 +30,8 @@
   - Pridané nové class .css triedy
   - Dokončená responzivita pre všetky mobilné zariadenia 
 
+**1.6.2021 - Nastavenia**       
+  - Prepracovaný dizajn a responzivita pre mobilné zariadenia   
+
   
   
