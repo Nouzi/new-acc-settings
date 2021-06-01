@@ -1,6 +1,65 @@
 /* Laptop rozlíšenie  */
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 
+    .core {
+        margin: 1% 0;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.63);
+        color: white;
+        position:fixed;
+        height: 86%;
+        max-height: 89%;
+        width: 90%;
+        align-items: center;
+        
+    }
+
+    .avatar {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 9999px;
+        object-fit: cover;
+        margin: 1rem;
+    }
+
+    .avatar-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
+        font-size: 2.5rem;
+    }
+    
+    .avatar-button {
+        border-radius: 0.5rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin: 1rem;
+    }
+
+    .personal-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
+        font-size: 2rem;
+    }
+
+    .personal-button {
+        border-radius: 0.5rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin: 2rem;
+    }
+
     .obrazok {
         max-width: 100%;
         width: 20rem;
@@ -75,6 +134,65 @@
 
 /*Laptop rozlíšenie len o trochu väčšie  */
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
+
+    .core {
+        margin: 1% 0;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.63);
+        color: white;
+        position:fixed;
+        height: 86%;
+        max-height: 89%;
+        width: 90%;
+        align-items: center;
+        
+    }
+
+    .avatar {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 9999px;
+        object-fit: cover;
+        margin: 1rem;
+    }
+
+    .avatar-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
+        font-size: 2.5rem;
+    }
+    
+    .avatar-button {
+        border-radius: 0.5rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin: 1rem;
+    }
+
+    .personal-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
+        font-size: 2rem;
+    }
+
+    .personal-button {
+        border-radius: 0.5rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin: 2rem;
+    }
 
     .obrazok {
         max-width: 100%;
