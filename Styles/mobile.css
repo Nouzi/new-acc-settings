@@ -1,5 +1,5 @@
 /* iphone x */
-@media screen and (max-width: 374px) {
+@media screen and (min-width: 321px) and (max-width: 374px) {
 
     .news {
         display: flex;
@@ -15,6 +15,8 @@
         padding: 1%;
     }
 
+
+    
     .avatar {
         height: 10rem;
         width: 10rem;
@@ -52,7 +54,35 @@
     .avatar-name {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color:  rgba(9, 172, 236, 0.76);
-        margin: 1rem 0 1rem 0;
+        margin: 0 0 1rem 0;
+    }
+
+    .personal-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
+    }
+
+    .core-avatar {
+        width: 88%;
+        height: 50%;
+        margin: 1% 0;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        
+            
+        }
+
+    .avatar-button {
+        border-radius: 0.5rem;
+        width: 4rem;
+        height: 1.5rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin: 1rem;
     }
 
     .avatar {
@@ -99,17 +129,23 @@
     .avatar-name {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color:  rgba(9, 172, 236, 0.76);
-        margin: 1rem 0 0 0;
+        margin: 0;
     }
 
     .avatar-button {
         border-radius: 0.5rem;
         width: 4rem;
-        height: 6rem;
+        height: 2rem;
         outline: none;
         background-color:rgba(8, 159, 219, 0.521);
         border-color: black;
         margin-bottom: 1rem;
+    }
+
+    .personal-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
     }
 
     .personal-button {
@@ -123,8 +159,8 @@
     }
 
     .avatar {
-        height: 13rem;
-        width: 13rem;
+        height: 12rem;
+        width: 12rem;
         border-radius: 9999px;
         object-fit: cover;
         margin: 1rem;
@@ -178,23 +214,33 @@
     .avatar-name {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color:  rgba(9, 172, 236, 0.76);
-        margin: 1rem 0 0 0;
+        margin: 0;
+        font-size: 1.5rem;
     }
 
     .avatar-button {
         border-radius: 0.5rem;
-        width: 4rem;
+        width: 5rem;
         height: 2rem;
+        font-size: 1rem;
         outline: none;
         background-color:rgba(8, 159, 219, 0.521);
         border-color: black;
         margin-bottom: 1rem;
     }
 
+    .personal-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
     .personal-button {
         border-radius: 0.5rem;
-        width: 4rem;
+        width: 5rem;
         height: 2rem;
+        font-size: 1rem;
         outline: none;
         background-color:rgba(8, 159, 219, 0.521);
         border-color: black;
@@ -202,8 +248,8 @@
     }
 
     .avatar {
-        height: 15rem;
-        width: 15rem;
+        height: 12rem;
+        width: 12rem;
         border-radius: 9999px;
         object-fit: cover;
         margin: 1rem;

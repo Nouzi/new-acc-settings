@@ -68,6 +68,12 @@ a:hover {
     
 }
 
+.personal-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgba(9, 172, 236, 0.76);
+    margin: 1rem 0 0 0;
+}
+
 .avatar-name {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:  rgba(9, 172, 236, 0.76);
@@ -135,7 +141,7 @@ align-items: center;
     background-color: rgba(0, 0, 0, 0.63);
     color: white;
     position:fixed;
-    height: 90%;
+    height: 85%;
     max-height: 89%;
     width: 90%;
     align-items: center;
