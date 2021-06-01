@@ -32,6 +32,7 @@
 
 **1.6.2021 - Nastavenia**       
   - Prepracovaný dizajn a responzivita pre mobilné zariadenia   
+  - Dokončená responzivita pre rozlíšenie Ipad ( 768-1024px )
 
   
   
