@@ -1,6 +1,50 @@
 /* Ipad rozlíšenie  */
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+    .avatar {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 9999px;
+        object-fit: cover;
+        margin: 1rem;
+    }
+
+    .avatar-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
+        font-size: 2rem;
+    }
+    
+    .avatar-button {
+        border-radius: 0.5rem;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin: 1rem;
+    }
+
+    .personal-name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:  rgba(9, 172, 236, 0.76);
+        margin: 1rem;
+        font-size: 2rem;
+    }
+
+    .personal-button {
+        border-radius: 0.5rem;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+        outline: none;
+        background-color:rgba(8, 159, 219, 0.521);
+        border-color: black;
+        margin: 2rem;
+    }
+
     .card-setup {
         display: grid;
         /* justify-items: center; */
