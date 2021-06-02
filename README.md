@@ -35,5 +35,9 @@
   - Dokončená responzivita pre rozlíšenie Ipad ( 768-1024px )
   - Dokončená responzivita pre tablety a laptopy
 
+**2.6.2021 - KONIEC**    
+  - Rozhodol som sa projekt ukončiť, kedže som už len využíval veci, ktoré som vedel a nestaral sa o robenie menších projektov, pri ktorých by som mohol vždy niečo spraviť inak a vylepšiť a pod... 
+
+
   
   
